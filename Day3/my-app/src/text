@@ -1,0 +1,41 @@
+//   const [hide,setHide] = useState(false);
+//   const [count, setCount]= useState(0);
+//   const [mode, setMode] =useState("light")
+//   const hideCard =() =>{
+//       setHide(hide === true? false:true)
+//   } 
+//   return (
+//     <div className="grid grid-cols-2 lg:grid-cols-4 gap-4  ">
+//       {
+        
+//         !hide && <div className= " p-4 bg-orange-200 columns-lg  lg:bg-rose-200 text-rose-700 font-bold  col-span-1 rounded-2xl m-4">
+//         Card 1 </div>
+//       }
+
+//       <div className = " p-4 bg-rose-200 text-rose-700 font-bold  col-span-1 rounded-2xl m-4">
+//        Count : {count}
+//       </div>
+//       <div className= {`p-4 ${mode==="light"? "bg-rose-200 text-rose-700 font-bold ": "bg-rose-700 text-rose-200 font-bold "} col-span-1 rounded-2xl m-4`}>
+//         Card 3
+//       </div>
+//       <div className= " p-4 bg-rose-200 text-rose-700 font-bold  col-span-1 rounded-2xl m-4">
+//         Card 4
+//       </div>
+//       <div>   
+//         <button onClick={hideCard}> 
+//         {
+//           hide ? "Unhide" :"Hide"
+//         } </button>
+//         <div>
+//           <button className='p-2 rounded bg-green-400 m-px col-span-1' onClick={() => setCount(count+1)}> 
+//            Increament </button>
+          
+//             <button className='p-2 rounded bg-green-400 m-px col-span-1' onClick={() => 
+//             setCount() === 0? 0: setCount(count-1)  }> Decrement</button>
+          
+//             <button className='p-2 rounded bg-green-400 m-px' onClick={()=> 
+//               setMode(mode=== "light" ? "dark":"light")}>Change Mode</button>
+//         </div>
+//       </div>
+//     </div>
+  // )
